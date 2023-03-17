@@ -1,0 +1,307 @@
+body{
+background-color: lightgray;
+}
+.head{
+   background-image: url("hot.jpg"); 
+   background-size: cover;
+   background-position: bottom;
+   width: 100%;
+   height: 90vh;
+}
+.logo{
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-size: x-large;
+    color: blue;
+
+}
+h4{
+    margin-right:50% ;
+}
+ul{
+    display: flex;
+    margin-left: 20%;
+    justify-content: space-between;
+    list-style: none;
+    text-transform: uppercase;
+    color: #fff5f5;
+}
+li a{
+    text-decoration: none;
+    color: #fff5f5;
+}
+.login{
+    border: solid blue;
+}
+.sign{
+    background-color: blue;
+}
+.bigbutton{
+    display: flex;
+    background-color: #fff5f5;
+    border-radius: 25px;
+    padding: 15px 20px;
+    width: 50%;
+    
+}
+.location{
+    border-radius: 25px;
+    padding: 5px px ;
+    right: -10px;
+}
+.search{
+    background-color: blue;
+    padding: 15px 20px;
+    border-radius: 25px;
+}
+.head-content{
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.simple{
+text-transform: uppercase;
+color: #fff5f5;
+margin-top: 25%;
+font-size: large;
+font-weight: bolder;
+}
+.simple1{
+    font-size: 80%;
+    color: #fff5f5;
+    margin-top: 5%;
+    font-size: xx-large;
+    font-weight: bolder;
+    
+}
+.hotel{
+    color: blue;
+}
+.box{
+    width: 500px;
+    margin-top: 25%;
+}
+input{
+ display: inline-block;
+ font-size: 15px;
+ box-sizing: border-box;
+}
+.input1{
+    background-color: #fff5f5;
+    width: 100px;
+    height: 40px;
+    border: none;
+    padding: 0px 25px;
+    outline: none;
+    border-radius: 25px 25px 25px 25px;
+    left: -5px;
+}
+.input2{
+    position: relative;
+    left: -5px;
+    border-radius: 25px 25px 25px 25px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    color: #fff5f5;
+}
+ion-icon{
+    position: absolute;
+    right: 200px;
+    color: #fff5f5;
+    margin: 17px;
+    font-size: large;
+}
+.imag{
+    display: flex;
+}
+.imag1{
+    width: 90%;
+    height: 90%
+}
+.button1{
+    margin-top: 3%;
+    margin-left: 40%;
+    padding: 20px 50px;
+}
+h1{
+    margin-left: 30%;
+    text-transform: uppercase;
+}
+.images2{
+    display: flex;
+    width: 30%;
+    height: 20%;
+}
+.images3{
+    display: flex;
+
+}
+.image5{
+    width: 30px;
+    height: 20px;
+}
+.image6{
+    display: flex;
+    width: 80%;
+    height: 60%;
+    margin-left: 5%;
+}
+.house{
+    width: 90%;
+    height: 70%;
+}
+.Lorem{
+    margin-left: 30%;
+}
+.head5{
+    display: flex;
+    gap: 3rem;
+    margin-left: 40%;
+    font-size: larger;
+}
+ion-icon{
+    color: blue;
+}
+.book{
+    background-color: blue;
+    color: #fff5f5;
+}
+.line{
+    background-color: blue;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+}
+.foods{
+    display: flex;
+    width: 80%;
+    height: 40%;
+    margin-left: 7%;
+}
+.food{
+    width: 95%;
+    height: 80%;
+}
+.people{
+    display: flex;
+    justify-content: space-between;
+}
+.man{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    justify-content: space-between;
+}
+.man2{
+    width: 50%;
+    height: 30%;
+    padding: 10%;
+    justify-content: space-between;
+    border-radius: 200px;
+
+}
+.person{
+    display: flex;
+}
+ion-icons{
+    color: light blue;
+}
+.general{
+    display: flex;
+    margin-right: 5%;
+    width: 80%;
+    height: 30%;
+}
+.one{
+    width: 90%;
+    height: 40%;
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+.four{
+    display: flex;
+}
+.girlis{
+    width: 90%;
+    height: 70%;
+}
+.client{
+    background-color: blue;
+    color: #fff5f5;
+    padding: 15px 35px;
+    
+}
+.client1{
+    display: flex;
+    margin-left: 60%;
+    gap: 3rem;
+}
+.box1{
+    width: 500px;
+    margin-left: 30%;
+}
+input{
+ display: inline-block;
+ font-size: 15px;
+ box-sizing: border-box;
+}
+.placehold1{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 0px 25px;
+    outline: none;
+    border-radius: 25px 0px 0px 25px;
+}
+.placehold2{
+    position: relative;
+    left: -5px;
+    border-radius: 0px 25px 25px 0px;
+    width: 120px;
+    height: 50px;
+    background-color: lightskyblue;
+    border: none;
+    color: #fff5f5;
+}
+.place{
+    background-color: blue;
+    width: 100%;
+    height: 30vh;
+    border-radius: 25px 25px 25px 0px;
+}
+.paragraph{
+    margin-left: 30%;
+}
+.foot2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: whitesmoke;
+}
+.nuro{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+.menu1{
+    display: flex;
+    justify-content: space-between;
+}
+.menu2{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+ 
+
+ 
+
