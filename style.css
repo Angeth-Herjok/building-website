@@ -1,5 +1,5 @@
 body{
-background-color: lightgray;
+background-color: rgb(237,234,234);
 }
 .head{
    background-image: url("hot.jpg"); 
@@ -24,8 +24,10 @@ ul{
     justify-content: space-between;
     list-style: none;
     text-transform: uppercase;
-    color: #fff5f5;
+    color: #f1f3f5;
+    font-weight: bolder;
 }
+
 li a{
     text-decoration: none;
     color: #fff5f5;
@@ -78,13 +80,6 @@ font-weight: bolder;
 .hotel{
     color: blue;
 }
-ion-icon{
-    position: absolute;
-    right: 200px;
-    color: #fff5f5;
-    margin: 17px;
-    font-size: large;
-}
 .imag{
     display: flex;
 }
@@ -133,9 +128,6 @@ h1{
     margin-left: 40%;
     font-size: larger;
 }
-ion-icon{
-    color: blue;
-}
 .book{
     background-color: blue;
     color: #fff5f5;
@@ -176,9 +168,6 @@ ion-icon{
 }
 .person{
     display: flex;
-}
-ion-icons{
-    color: blue;
 }
 .general{
     display: flex;
@@ -238,7 +227,7 @@ input{
     border-radius: 0px 25px 25px 0px;
     width: 120px;
     height: 50px;
-    background-color: lightskyblue;
+    background-color: #a5d8ff;
     border: none;
     color: #fff5f5;
 }
@@ -251,12 +240,6 @@ input{
 .paragraph{
     margin-left: 30%;
 }
-.foot2{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    background-color: whitesmoke;
-}
 .nuro{
     text-transform: uppercase;
     font-weight: bolder;
@@ -268,15 +251,173 @@ input{
 .menu2{
     display: flex;
     justify-content: space-between;
+}
+.foot-inform{
+    display: flex;
+}
 
+/* index1.html */
+.headimages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.pics{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+}
+.waterhotel{
+    width: 100%;
+    height: 90%;
+}
+.insideimage{
+    width: 80%;
+    height: 50%;
+}
+img{
+    width: 80%;
+    height: 70%;
+}
+.star{
+   display: flex;
+   justify-content: space-between;
+}
+.buttonsee{
+    padding: 18px 25px;
+    background-color: blue;
+}
+.paragraph1{
+      font-size: large;
+}
+.gilgit{
+      font-size: xx-large;
+}
+.hoteldetails{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.food-facilities{
+    margin-left: 40%;
+    margin-top: 5%;
+    background-color: #f1f3f5;
+}
+.foodd{
+    font-size: x-large;
+}
+.hotel-description{
+    margin-top: 5%;
+}
+.more{
+    margin-left: 40%;
+    background-color: rgb(237,234,234);
+}
+.more-icon{
+    margin-right: 36%;
+}
+.detail-button{
+    margin-top: 5%;
+}
+.buttonnow{
+    padding: 18px 25px;
+}
+span{
+    padding: 50px;
+}
+.learnmore{
+    background-color: #f1f3f5;
+    padding-right: 40%; 
+}
+.foot-inform{
+    display: flex;
+}
+.learnmore{
+    padding: 100px;
+}
+.foot-inform{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f3f5;
+}
+ion-icon{
+    color: blue;
+}
+h2{
+    text-transform: uppercase;
+}
+.button-more{
+    border: solid blue;
+    padding: 15px 30px;
+}
+.read{
+    padding: 8px 28px;
+}
+.logo1{
+    text-transform: uppercase;
+}
+.linking{
+    color: blue;
+}
+
+/* about.html */
+.hotel-story{
+    display: flex;
+}
+.hotel-vision{
+    display: flex;
+}
+.hotel-approach{
+    display: flex;
+}
+.about-image1{
+    width: 90%;
+    height: 90%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+.about-image2{
+    width: 70%;
+    height: 90%;
+    border-bottom-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+.about-image3{
+    width: 70%;
+    height: 90%;
+    border-bottom-right-radius: 40%;
+    border-top-left-radius: 40%;
+}
+.learnmore{
+    padding: 100px;
+}
+.foot-inform{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f3f5;
+}
+ion-icon{
+    color: blue;
+}
+h2{
+    text-transform: uppercase;
+}
+.button-more{
+    border: solid blue;
+    padding: 15px 30px;
+}
+.read{
+    padding: 8px 28px;
+}
+.logo1{
+    text-transform: uppercase;
 }
 
  @media screen and (max-width:768px){
-    .head{
-        width: 100%;
-        height:600px;
-     }
-     .bigbutton{
+.head{ 
+ width: 100%; 
+height:600px; 
+}
+.bigbutton{
         border-radius: 15px;
         padding: 5px 10px;
         width: 50%;
@@ -309,7 +450,6 @@ footer{
 .book{
     flex-direction: column;
 
-
 }
 .box1{
     margin-bottom: 40%;
@@ -321,9 +461,51 @@ footer{
     margin-top: 50%;
 }
 .head5{
+    flex-direction: column; 
+}
+.food{
     flex-direction: column;
 }
- }
+.book{
+    flex-direction: column;
+}
+.image6{
+    margin-top: 30%;
+}
+.Lorem{
+    margin-right: 40%;
+}
+ul{
+    margin-right: 40%;
+}
+.people{
+    margin-top: 20%;
+}
+.what{
+    margin-top: 40%;
+}
+.girlis{
+    width: 80%;
+    height: 40%;
+}
+.general{
+    width: 80%;
+    height: 50%;
+}
+.box1{
+    margin-right: 60%;
+    margin-bottom: 5%;
+    padding: 3px 5px;
+}
+.login{
+    margin-top: 40%;
+    
+}
+.sign{
+    margin-top: 40%;
+
+}
+ } 
 
 
 
