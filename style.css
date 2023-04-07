@@ -658,8 +658,38 @@ ul{
 .foodd{
     font-size: small;
 }
-.gamepark{
+/* contact us */
+.input-box{
+    flex-direction: column;
+}
+.box-details{
+    padding: 5px 8px;
+    margin-right: 20%;
+}
+.message-details{
+    padding: 20px 10px;
+    margin-right: 20%;
+}
+.message-box{
+    padding: 30px 10px;
+    margin-right: 20%;
     
+}
+.table-content{
+    margin-right: 10%;
+}
+/* about */
+.hotel-story{
+    flex-direction: column;
+}
+.hotel-vision{
+    flex-direction: column;
+}
+.hotel-approach{
+    flex-direction:column ;
+}
+input{
+    padding: 10px 5px;
 }
  } 
 
