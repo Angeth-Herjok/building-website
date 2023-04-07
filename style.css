@@ -411,6 +411,74 @@ h2{
 .logo1{
     text-transform: uppercase;
 }
+.li-a{
+    color: black;
+}
+/* table.html */
+
+.Nav-body{
+    text-align: center;
+    margin-top: 8%;
+}
+.contact-us{
+  font-size: 350%;
+  text-transform: uppercase;
+  color: black;
+}
+.love-help{
+  font-size: xx-large;
+}
+.lorem-ipsum{
+    font-size: x-large;
+}
+.table-content{
+    padding: 49px;   
+}
+.love-icon{
+    color: black;
+}
+.input-details{
+ display: flex;
+ padding: 30px;
+ margin-top: 5%;
+ 
+}
+.box-details{
+    padding: 15px 20%;
+    font-size: large;
+}
+.summit-button{
+    padding: 15px 40px;
+    background-color: blue;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.message-details{
+   padding: 100px  20%;
+   border-radius: 10px 10px 100px 10px;
+   font-size: x-large;
+}
+.body-footer{
+    margin-top: 50px;
+}
+.input-box{
+    display: flex;
+}
+.box-details1{
+    margin-left: 16%;
+    border: none;
+    
+}
+.box-details{
+    border-radius: 10px;
+    
+}
+.message-box{
+    margin-top: 5%;
+}
+input{
+    background-color: #f1f3f5;
+}
 
  @media screen and (max-width:768px){
 .head{ 
@@ -504,6 +572,94 @@ ul{
 .sign{
     margin-top: 40%;
 
+}
+ul{
+    flex-direction: column;
+    font-size: medium;
+}
+.imag{
+ flex-direction: column;
+ margin-top: 50%;
+}
+.button1{
+    margin-right: 10%;
+}
+.image6{
+    flex-direction: column;
+}
+.foods{
+    flex-direction: column;
+}
+.two{
+    flex-direction: column;
+}
+.three{
+    flex-direction: column;
+}
+.four{
+    flex-direction: column;
+}
+.foot-inform{
+    flex-direction: column;
+    margin-top: 50%;
+}
+.general{
+    flex-direction: column;
+}
+.h1{
+    font-size: small;
+}
+.placehold1{
+   font-size: small;
+    
+}
+.placehold2{
+    font-size: small;
+    margin-right: 50%;
+}
+.paragraph{
+    font-size: small;
+    margin-right: 30%;
+}
+.Newsletter{
+    font-size: small;
+}
+.people{
+    flex-direction: column;
+}
+.person{
+    flex-direction: column;
+}
+.simple{
+    font-size: small;
+}
+.simple1{
+    font-size: small;
+}
+/* index1.html */
+.headimages{
+    flex-direction: column;
+}
+.gilgit{
+    font-size: medium;
+}
+.paragraph1{
+    font-size: medium;
+}
+.star{
+    flex-direction: column;
+}
+.hoteldetails{
+    flex-direction: column;
+}
+.food-facilities{
+  font-size: small;
+}
+.foodd{
+    font-size: small;
+}
+.gamepark{
+    
 }
  } 
 
